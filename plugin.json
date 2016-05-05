@@ -1,0 +1,16 @@
+{
+  "id": "nodebb-plugin-betterpolling",
+  "name": "Better Polling",
+  "description": "Better plugin for user created polls",
+  "url": "",
+  "library": "./better-polling.js",
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "less": [
+    "assets/style.less"
+  ],
+  "hooks": [
+    { "hook": "action:post.save", "method": "createPoll" }
+  ]
+}
