@@ -2,7 +2,7 @@
   "id": "nodebb-plugin-better-polling",
   "name": "Better Polling",
   "description": "Better plugin for user created polls",
-  "url": "",
+  "url": "https://github.com/christopherfowers/betterpolling",
   "library": "./better-polling.js",
   "staticDirs": {
     "images": "public/images"
