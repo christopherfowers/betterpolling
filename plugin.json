@@ -8,6 +8,6 @@
     "images": "public/images"
   },
   "hooks": [
-    { "hook": "action:post.save", "method": "createPoll" }
+    { "hook": "action:categories.loaded", "method": "createPoll" }
   ]
 }
