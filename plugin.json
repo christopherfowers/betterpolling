@@ -7,9 +7,6 @@
   "staticDirs": {
     "images": "public/images"
   },
-  "less": [
-    "assets/style.less"
-  ],
   "hooks": [
     { "hook": "action:post.save", "method": "createPoll" }
   ]
